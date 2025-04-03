@@ -41,9 +41,12 @@ results[0].show()
 ```
 
 #### 抠图算法
+rembg 使用 MODNet 或类似的语义分割模型，已经在 大量带有透明通道的图像数据 上训练过。
 
+主要用来 区分前景（主体）和背景。
 #### paddleocr
 
+https://paddlepaddle.github.io/PaddleX/latest/pipeline_usage/tutorials/ocr_pipelines/OCR.html#221
 
 reference:
 
