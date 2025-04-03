@@ -53,5 +53,7 @@ https://github.com/jack139/locard
 
 2.[深度学习与图像处理 |身份证识读APP（关键点检测）](https://mp.weixin.qq.com/s/TceH_7nInlsMmiXn23YFbg)
 
+3.openCV 图像处理
 
+https://github.com/LeBron-Jian/ComputerVisionPractice?tab=readme-ov-file
 
