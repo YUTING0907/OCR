@@ -21,6 +21,7 @@
 ## 思路：
 图像预处理为了使得paddleocr输入的图片更容易被识别（仅留下身份证）。
 那么思路可以是通过目标检测方法，将身份证的框框识别出来，进行裁剪。
+或者可以是通过关键点矫正图像。
 或者还可以是通过传统的图像预处理方法，增强图像，矫正裁剪。
 
 #### 目标检测
@@ -40,4 +41,17 @@ results[0].show()
 ```
 
 #### 抠图算法
+
+#### paddleocr
+
+
+reference:
+
+1.[开放场景的身份证件定位方法](https://mp.weixin.qq.com/s/z3JO6ujvqkVGSEB8ZohOsg?poc_token=HHU07mejovj2nunuVqlbJdoEi642XgTsxz3XwKOZ)
+
+https://github.com/jack139/locard
+
+2.[深度学习与图像处理 |身份证识读APP（关键点检测）](https://mp.weixin.qq.com/s/TceH_7nInlsMmiXn23YFbg)
+
+
 
